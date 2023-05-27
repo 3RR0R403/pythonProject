@@ -7,7 +7,7 @@ format="We have next logging message: "
 )
 choose = input("Номер нужной крипто валюты - ")
 logging.info("first choose")
-value = int(input("Количевство криптовалюты - "))
+value = float(input("Количевство криптовалюты - "))
 logging.info("second choose")
 b = 0
 c = 0
